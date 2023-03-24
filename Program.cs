@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            EmployeeAttendance.GetAttendenceint();
+            EmployeeAttendance.GetAttendence();
 
 
 
