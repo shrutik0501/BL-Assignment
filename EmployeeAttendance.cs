@@ -10,21 +10,23 @@ namespace EmployeeManagement
     {
         public static void GetAttendence()
         {
-            int IS_FULL_TIME = 1;
+            int IS_PART_TIME  = 1;
+            int IS_FULL_TIME = 2;
             int EMP_RATE_PER_HOUR = 20;
-            int empHours = 0;
+            int empHrs = 0;
+            int empWage = 0;
             Random random = new Random();
-            int empCheck = random.Next(0, 2);
-            if (empCheck == 1)
+            int empCheck = random.Next(0, 3);
+            if (empCheck == IS_PART_TIME )
             {
-                empHours = 8;
+                empHrs = 4;
             }
-            else
+            else if(empCheck == IS_FULL_TIME )
             {
-                empHours = 0;
+                empHrs = 8;
             }
-            int empWage = empHours * EMP_RATE_PER_HOUR;
-            Console.WriteLine(  "empwage is : "+empWage );
+            empWage = empHrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine(  "empwage  : "+empWage );
         }
     }
 }

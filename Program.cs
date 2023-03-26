@@ -8,8 +8,6 @@
 
             EmployeeAttendance.GetAttendence();
 
-
-
         }
 }
 }
