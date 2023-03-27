@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            EmployeeAttendance.EmpWageUsingSwitchCase();
+            EmployeeAttendance.EmpWageUsingForLoop();
 
         }
 }
