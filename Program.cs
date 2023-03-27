@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            EmployeeAttendance.GetAttendence();
+            EmployeeAttendance.EmpWageUsingSwitchCase();
 
         }
 }
