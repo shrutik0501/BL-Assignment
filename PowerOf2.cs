@@ -11,7 +11,6 @@ namespace flip_coin
         public static void findPowerOf2(int power) 
         {
             
-            
             int i = 0;
             int p = 1;
             for (int j = 1; j <=power ; j++)

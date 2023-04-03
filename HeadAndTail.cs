@@ -8,6 +8,7 @@ namespace flip_coin
 {
     internal class HeadAndTail
     {
+
         public static void findHeadAndTail(int flipTimes)
         {
             Random random = new Random();

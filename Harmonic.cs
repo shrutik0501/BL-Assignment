@@ -10,7 +10,6 @@ namespace flip_coin
     {
         public static void findHarmonic()
         {
-
             Console.WriteLine("enter terms");
             int n = Convert.ToInt32(Console.ReadLine());
             int i = 1;
